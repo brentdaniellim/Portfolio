@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(92, 85, 85);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: rgb(51, 46, 46);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 39px;
+    font-weight: 1000;
+    letter-spacing: 10px;
+}
+
+/* Flex layout for 3 sections: image - box - image */
+.image-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 40px;
+    flex-wrap: wrap; /* Responsive on smaller screens */
+}
+
+/* Image styles */
+.image-layout img {
+    max-width: 350px;
+    height: auto;
+    border: 20px solid #231c1c; /* border if I want styles */
+}
+
+/* Dark box in the center */
+.dark-box {
+    background-color: rgb(249, 249, 249);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 10px black;
+}
+
+/* box side*/
+.side-box {
+    background-color: rgb(38, 37, 40);
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 10px black;
+}
+
+
+
+
+
